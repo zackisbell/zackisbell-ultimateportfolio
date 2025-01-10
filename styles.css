@@ -76,10 +76,17 @@ header h4 {
 
 nav {
     display: none;
+    width: 30%;
 }
 
 nav a {
     font-size: 0.9rem;
+}
+
+.about-active {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .about-active:hover {
@@ -92,6 +99,12 @@ nav a {
     transition-duration: 175ms;
 }
 
+.experience-active {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .experience-active:hover {
     font-size: 1.25rem;
     transition-duration: 175ms;
@@ -100,6 +113,12 @@ nav a {
 .experience-active:active {
     font-weight: 700;
     transition-duration: 175ms;
+}
+
+.projects-active {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .projects-active:hover {
