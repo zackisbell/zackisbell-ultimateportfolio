@@ -13,6 +13,12 @@ html {
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+
+*::selection{
+    background-color: var(--color-accent);
+    color: #0f172a;
 }
 
 body {
@@ -26,11 +32,6 @@ body {
 
 p {
     line-height: 1.5rem;
-}
-
-p::selection, h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection {
-    background-color: var(--color-accent);
-    color: #0f172a;
 }
 
 .underlay {
@@ -156,6 +157,7 @@ section h2 {
 
 .anchor-text:hover {
     color: var(--color-accent);
+    text-decoration: none;
 }
 
 .experience-contents,
@@ -380,12 +382,13 @@ footer p {
         display: flex;
         flex-direction: column;
         flex: 1;
-        gap: 0.5rem;
+        gap: 1.5rem;
     }
 
     nav a {
         font-size: 1rem;
     }
+
 
     .social-link-container {
         gap: 1.5rem;
@@ -414,7 +417,8 @@ footer p {
         grid-column: span 2 / span 2;
         flex-direction: row;
         max-width: 1200px;
-        margin: 0 auto;
+        margin: auto 0;
         width: 100%;
+        justify-self: center;
     }
 }
