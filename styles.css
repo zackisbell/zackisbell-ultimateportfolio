@@ -14,6 +14,7 @@ html {
     padding: 0;
     font-family: 'Inter', sans-serif;
     text-decoration: none;
+    scroll-margin-top: 6rem;
 }
 
 *::selection{
@@ -79,6 +80,36 @@ nav {
 
 nav a {
     font-size: 0.9rem;
+}
+
+.about-active:hover {
+    font-size: 1.25rem;
+    transition-duration: 175ms;
+}
+
+.about-active:active {
+    font-weight: 700;
+    transition-duration: 175ms;
+}
+
+.experience-active:hover {
+    font-size: 1.25rem;
+    transition-duration: 175ms;
+}
+
+.experience-active:active {
+    font-weight: 700;
+    transition-duration: 175ms;
+}
+
+.projects-active:hover {
+    font-size: 1.25rem;
+    transition-duration: 175ms;
+}
+
+.projects-active:active {
+    font-weight: 700;
+    transition-duration: 175ms;
 }
 
 .social-link-container {
